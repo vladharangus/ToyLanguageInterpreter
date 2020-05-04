@@ -1,0 +1,607 @@
+ID: 31
+ExeStack:
+-> (Ref(int) v;)
+-> (new(v, (20));((Ref(Ref(int)) a;);(new(a, v);(print(v);print(a)))))
+SymTable:
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 31
+ExeStack:
+-> (new(v, (20));((Ref(Ref(int)) a;);(new(a, v);(print(v);print(a)))))
+SymTable:
+v-> (0 int)
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 31
+ExeStack:
+-> new(v, (20))
+-> ((Ref(Ref(int)) a;);(new(a, v);(print(v);print(a))))
+SymTable:
+v-> (0 int)
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 31
+ExeStack:
+-> ((Ref(Ref(int)) a;);(new(a, v);(print(v);print(a))))
+SymTable:
+v-> (32 int)
+Out:
+FileTable:
+HeapTable:
+32->20
+.......................................
+ID: 31
+ExeStack:
+-> (Ref(Ref(int)) a;)
+-> (new(a, v);(print(v);print(a)))
+SymTable:
+v-> (32 int)
+Out:
+FileTable:
+HeapTable:
+32->20
+.......................................
+ID: 31
+ExeStack:
+-> (new(a, v);(print(v);print(a)))
+SymTable:
+a-> (0 Ref(int))
+v-> (32 int)
+Out:
+FileTable:
+HeapTable:
+32->20
+.......................................
+ID: 31
+ExeStack:
+-> new(a, v)
+-> (print(v);print(a))
+SymTable:
+a-> (0 Ref(int))
+v-> (32 int)
+Out:
+FileTable:
+HeapTable:
+32->20
+.......................................
+ID: 31
+ExeStack:
+-> (print(v);print(a))
+SymTable:
+a-> (32 Ref(int))
+v-> (32 int)
+Out:
+FileTable:
+HeapTable:
+32->(32 int)
+.......................................
+ID: 31
+ExeStack:
+-> print(v)
+-> print(a)
+SymTable:
+a-> (32 Ref(int))
+v-> (32 int)
+Out:
+FileTable:
+HeapTable:
+32->(32 int)
+.......................................
+ID: 31
+ExeStack:
+-> print(a)
+SymTable:
+a-> (32 Ref(int))
+v-> (32 int)
+Out:
+(32 int)
+FileTable:
+HeapTable:
+32->(32 int)
+.......................................
+ID: 31
+ExeStack:
+SymTable:
+a-> (32 Ref(int))
+v-> (32 int)
+Out:
+(32 int)
+(32 Ref(int))
+FileTable:
+HeapTable:
+32->(32 int)
+.......................................
+ID: 9
+ExeStack:
+-> (Ref(int) v;)
+-> (new(v, (20));((Ref(Ref(int)) a;);(new(a, v);(print(v);print(a)))))
+SymTable:
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 9
+ExeStack:
+-> (new(v, (20));((Ref(Ref(int)) a;);(new(a, v);(print(v);print(a)))))
+SymTable:
+v-> (0 int)
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 9
+ExeStack:
+-> new(v, (20))
+-> ((Ref(Ref(int)) a;);(new(a, v);(print(v);print(a))))
+SymTable:
+v-> (0 int)
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 9
+ExeStack:
+-> ((Ref(Ref(int)) a;);(new(a, v);(print(v);print(a))))
+SymTable:
+v-> (10 int)
+Out:
+FileTable:
+HeapTable:
+10->20
+.......................................
+ID: 9
+ExeStack:
+-> (Ref(Ref(int)) a;)
+-> (new(a, v);(print(v);print(a)))
+SymTable:
+v-> (10 int)
+Out:
+FileTable:
+HeapTable:
+10->20
+.......................................
+ID: 9
+ExeStack:
+-> (new(a, v);(print(v);print(a)))
+SymTable:
+a-> (0 Ref(int))
+v-> (10 int)
+Out:
+FileTable:
+HeapTable:
+10->20
+.......................................
+ID: 9
+ExeStack:
+-> new(a, v)
+-> (print(v);print(a))
+SymTable:
+a-> (0 Ref(int))
+v-> (10 int)
+Out:
+FileTable:
+HeapTable:
+10->20
+.......................................
+ID: 9
+ExeStack:
+-> (print(v);print(a))
+SymTable:
+a-> (10 Ref(int))
+v-> (10 int)
+Out:
+FileTable:
+HeapTable:
+10->(10 int)
+.......................................
+ID: 9
+ExeStack:
+-> print(v)
+-> print(a)
+SymTable:
+a-> (10 Ref(int))
+v-> (10 int)
+Out:
+FileTable:
+HeapTable:
+10->(10 int)
+.......................................
+ID: 9
+ExeStack:
+-> print(a)
+SymTable:
+a-> (10 Ref(int))
+v-> (10 int)
+Out:
+(10 int)
+FileTable:
+HeapTable:
+10->(10 int)
+.......................................
+ID: 9
+ExeStack:
+SymTable:
+a-> (10 Ref(int))
+v-> (10 int)
+Out:
+(10 int)
+(10 Ref(int))
+FileTable:
+HeapTable:
+10->(10 int)
+.......................................
+ID: 9
+ExeStack:
+-> (Ref(int) v;)
+-> (new(v, (20));((Ref(Ref(int)) a;);(new(a, v);(print(v);print(a)))))
+SymTable:
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 9
+ExeStack:
+-> (new(v, (20));((Ref(Ref(int)) a;);(new(a, v);(print(v);print(a)))))
+SymTable:
+v-> (0 int)
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 9
+ExeStack:
+-> new(v, (20))
+-> ((Ref(Ref(int)) a;);(new(a, v);(print(v);print(a))))
+SymTable:
+v-> (0 int)
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 9
+ExeStack:
+-> ((Ref(Ref(int)) a;);(new(a, v);(print(v);print(a))))
+SymTable:
+v-> (9 int)
+Out:
+FileTable:
+HeapTable:
+9->20
+.......................................
+ID: 9
+ExeStack:
+-> (Ref(Ref(int)) a;)
+-> (new(a, v);(print(v);print(a)))
+SymTable:
+v-> (9 int)
+Out:
+FileTable:
+HeapTable:
+9->20
+.......................................
+ID: 9
+ExeStack:
+-> (new(a, v);(print(v);print(a)))
+SymTable:
+a-> (0 Ref(int))
+v-> (9 int)
+Out:
+FileTable:
+HeapTable:
+9->20
+.......................................
+ID: 9
+ExeStack:
+-> new(a, v)
+-> (print(v);print(a))
+SymTable:
+a-> (0 Ref(int))
+v-> (9 int)
+Out:
+FileTable:
+HeapTable:
+9->20
+.......................................
+ID: 9
+ExeStack:
+-> (print(v);print(a))
+SymTable:
+a-> (11 Ref(int))
+v-> (9 int)
+Out:
+FileTable:
+HeapTable:
+9->20
+11->(9 int)
+.......................................
+ID: 9
+ExeStack:
+-> print(v)
+-> print(a)
+SymTable:
+a-> (11 Ref(int))
+v-> (9 int)
+Out:
+FileTable:
+HeapTable:
+9->20
+11->(9 int)
+.......................................
+ID: 9
+ExeStack:
+-> print(a)
+SymTable:
+a-> (11 Ref(int))
+v-> (9 int)
+Out:
+(9 int)
+FileTable:
+HeapTable:
+9->20
+11->(9 int)
+.......................................
+ID: 9
+ExeStack:
+SymTable:
+a-> (11 Ref(int))
+v-> (9 int)
+Out:
+(9 int)
+(11 Ref(int))
+FileTable:
+HeapTable:
+9->20
+11->(9 int)
+.......................................
+ID: 20
+ExeStack:
+-> (Ref(int) v;)
+-> (new(v, (20));((Ref(Ref(int)) a;);(new(a, v);(print(v);print(a)))))
+SymTable:
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 20
+ExeStack:
+-> (new(v, (20));((Ref(Ref(int)) a;);(new(a, v);(print(v);print(a)))))
+SymTable:
+v-> (0 int)
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 20
+ExeStack:
+-> new(v, (20))
+-> ((Ref(Ref(int)) a;);(new(a, v);(print(v);print(a))))
+SymTable:
+v-> (0 int)
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 20
+ExeStack:
+-> ((Ref(Ref(int)) a;);(new(a, v);(print(v);print(a))))
+SymTable:
+v-> (20 int)
+Out:
+FileTable:
+HeapTable:
+20->20
+.......................................
+ID: 20
+ExeStack:
+-> (Ref(Ref(int)) a;)
+-> (new(a, v);(print(v);print(a)))
+SymTable:
+v-> (20 int)
+Out:
+FileTable:
+HeapTable:
+20->20
+.......................................
+ID: 20
+ExeStack:
+-> (new(a, v);(print(v);print(a)))
+SymTable:
+a-> (0 Ref(int))
+v-> (20 int)
+Out:
+FileTable:
+HeapTable:
+20->20
+.......................................
+ID: 20
+ExeStack:
+-> new(a, v)
+-> (print(v);print(a))
+SymTable:
+a-> (0 Ref(int))
+v-> (20 int)
+Out:
+FileTable:
+HeapTable:
+20->20
+.......................................
+ID: 20
+ExeStack:
+-> (print(v);print(a))
+SymTable:
+a-> (22 Ref(int))
+v-> (20 int)
+Out:
+FileTable:
+HeapTable:
+20->20
+22->(20 int)
+.......................................
+ID: 20
+ExeStack:
+-> print(v)
+-> print(a)
+SymTable:
+a-> (22 Ref(int))
+v-> (20 int)
+Out:
+FileTable:
+HeapTable:
+20->20
+22->(20 int)
+.......................................
+ID: 20
+ExeStack:
+-> print(a)
+SymTable:
+a-> (22 Ref(int))
+v-> (20 int)
+Out:
+(20 int)
+FileTable:
+HeapTable:
+20->20
+22->(20 int)
+.......................................
+ID: 20
+ExeStack:
+SymTable:
+a-> (22 Ref(int))
+v-> (20 int)
+Out:
+(20 int)
+(22 Ref(int))
+FileTable:
+HeapTable:
+20->20
+22->(20 int)
+.......................................
+ID: 30
+ExeStack:
+-> (Ref(int) v;)
+-> (new(v, (20));((Ref(Ref(int)) a;);(new(a, v);(print(v);print(a)))))
+SymTable:
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 30
+ExeStack:
+-> (new(v, (20));((Ref(Ref(int)) a;);(new(a, v);(print(v);print(a)))))
+SymTable:
+v-> (0 int)
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 30
+ExeStack:
+-> new(v, (20))
+-> ((Ref(Ref(int)) a;);(new(a, v);(print(v);print(a))))
+SymTable:
+v-> (0 int)
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 30
+ExeStack:
+-> ((Ref(Ref(int)) a;);(new(a, v);(print(v);print(a))))
+SymTable:
+v-> (32 int)
+Out:
+FileTable:
+HeapTable:
+32->20
+.......................................
+ID: 30
+ExeStack:
+-> (Ref(Ref(int)) a;)
+-> (new(a, v);(print(v);print(a)))
+SymTable:
+v-> (32 int)
+Out:
+FileTable:
+HeapTable:
+32->20
+.......................................
+ID: 30
+ExeStack:
+-> (new(a, v);(print(v);print(a)))
+SymTable:
+a-> (0 Ref(int))
+v-> (32 int)
+Out:
+FileTable:
+HeapTable:
+32->20
+.......................................
+ID: 30
+ExeStack:
+-> new(a, v)
+-> (print(v);print(a))
+SymTable:
+a-> (0 Ref(int))
+v-> (32 int)
+Out:
+FileTable:
+HeapTable:
+32->20
+.......................................
+ID: 30
+ExeStack:
+-> (print(v);print(a))
+SymTable:
+a-> (34 Ref(int))
+v-> (32 int)
+Out:
+FileTable:
+HeapTable:
+32->20
+34->(32 int)
+.......................................
+ID: 30
+ExeStack:
+-> print(v)
+-> print(a)
+SymTable:
+a-> (34 Ref(int))
+v-> (32 int)
+Out:
+FileTable:
+HeapTable:
+32->20
+34->(32 int)
+.......................................
+ID: 30
+ExeStack:
+-> print(a)
+SymTable:
+a-> (34 Ref(int))
+v-> (32 int)
+Out:
+(32 int)
+FileTable:
+HeapTable:
+32->20
+34->(32 int)
+.......................................
+ID: 30
+ExeStack:
+SymTable:
+a-> (34 Ref(int))
+v-> (32 int)
+Out:
+(32 int)
+(34 Ref(int))
+FileTable:
+HeapTable:
+32->20
+34->(32 int)
+.......................................

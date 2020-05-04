@@ -1,0 +1,627 @@
+ID: 10
+ExeStack:
+-> (bool v;)
+-> ((v=(4));(WHILE((v>(0))/n)(print(v);(v=(v - (1))));print(v)))
+SymTable:
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> ((v=(4));(WHILE((v>(0))/n)(print(v);(v=(v - (1))));print(v)))
+SymTable:
+v-> false
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> (v=(4))
+-> (WHILE((v>(0))/n)(print(v);(v=(v - (1))));print(v))
+SymTable:
+v-> false
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> (WHILE((v>(0))/n)(print(v);(v=(v - (1))));print(v))
+SymTable:
+v-> false
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> false
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> print(v)
+SymTable:
+v-> false
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+SymTable:
+v-> false
+Out:
+false
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> (int v;)
+-> ((v=(4));(WHILE((v>(0))/n)(print(v);(v=(v - (1))));print(v)))
+SymTable:
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> ((v=(4));(WHILE((v>(0))/n)(print(v);(v=(v - (1))));print(v)))
+SymTable:
+v-> 0
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> (v=(4))
+-> (WHILE((v>(0))/n)(print(v);(v=(v - (1))));print(v))
+SymTable:
+v-> 0
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> (WHILE((v>(0))/n)(print(v);(v=(v - (1))));print(v))
+SymTable:
+v-> 4
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 4
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> (print(v);(v=(v - (1))))
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 4
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> print(v)
+-> (v=(v - (1)))
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 4
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> (v=(v - (1)))
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 4
+Out:
+4
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 3
+Out:
+4
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> (print(v);(v=(v - (1))))
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 3
+Out:
+4
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> print(v)
+-> (v=(v - (1)))
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 3
+Out:
+4
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> (v=(v - (1)))
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 3
+Out:
+4
+3
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 2
+Out:
+4
+3
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> (print(v);(v=(v - (1))))
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 2
+Out:
+4
+3
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> print(v)
+-> (v=(v - (1)))
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 2
+Out:
+4
+3
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> (v=(v - (1)))
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 2
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 1
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> (print(v);(v=(v - (1))))
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 1
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> print(v)
+-> (v=(v - (1)))
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 1
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> (v=(v - (1)))
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 1
+Out:
+4
+3
+2
+1
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 0
+Out:
+4
+3
+2
+1
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> print(v)
+SymTable:
+v-> 0
+Out:
+4
+3
+2
+1
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+SymTable:
+v-> 0
+Out:
+4
+3
+2
+1
+0
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> (int v;)
+-> ((v=(4));(WHILE((v>(0))/n)(print(v);(v=(v - (1))));print(v)))
+SymTable:
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> ((v=(4));(WHILE((v>(0))/n)(print(v);(v=(v - (1))));print(v)))
+SymTable:
+v-> 0
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> (v=(4))
+-> (WHILE((v>(0))/n)(print(v);(v=(v - (1))));print(v))
+SymTable:
+v-> 0
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> (WHILE((v>(0))/n)(print(v);(v=(v - (1))));print(v))
+SymTable:
+v-> 4
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 4
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> (print(v);(v=(v - (1))))
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 4
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> print(v)
+-> (v=(v - (1)))
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 4
+Out:
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> (v=(v - (1)))
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 4
+Out:
+4
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 3
+Out:
+4
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> (print(v);(v=(v - (1))))
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 3
+Out:
+4
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> print(v)
+-> (v=(v - (1)))
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 3
+Out:
+4
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> (v=(v - (1)))
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 3
+Out:
+4
+3
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 2
+Out:
+4
+3
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> (print(v);(v=(v - (1))))
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 2
+Out:
+4
+3
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> print(v)
+-> (v=(v - (1)))
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 2
+Out:
+4
+3
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> (v=(v - (1)))
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 2
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 1
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> (print(v);(v=(v - (1))))
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 1
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> print(v)
+-> (v=(v - (1)))
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 1
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> (v=(v - (1)))
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 1
+Out:
+4
+3
+2
+1
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> WHILE((v>(0))/n)(print(v);(v=(v - (1))))
+-> print(v)
+SymTable:
+v-> 0
+Out:
+4
+3
+2
+1
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+-> print(v)
+SymTable:
+v-> 0
+Out:
+4
+3
+2
+1
+FileTable:
+HeapTable:
+.......................................
+ID: 10
+ExeStack:
+SymTable:
+v-> 0
+Out:
+4
+3
+2
+1
+0
+FileTable:
+HeapTable:
+.......................................
